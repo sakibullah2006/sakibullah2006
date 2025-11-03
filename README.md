@@ -50,8 +50,15 @@ These are the technologies I use most frequently to build modern, high-performan
 
 ### 🚀 My GitHub Activity
 
-<p align="center flex gap-3">
-  <img src="https://github-readme-stats.vercel.app/api?username=sakibullah2006&show_icons=true&theme=dracula&rank_icon=github&count_private=true" alt="Sakib Ullah's GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sakibullah2006&layout=compact&theme=dracula" alt="Top Languages" />
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=sakibullah2006&show_icons=true&theme=dracula&rank_icon=github&count_private=true" alt="Sakib Ullah's GitHub Stats" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sakibullah2006&layout=compact&theme=dracula" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,57 @@
+name: Update README commit stats
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      account:
+        description: 'GitHub username to aggregate commits for'
+        required: false
+        default: 'sakibullah2006'
+      token:
+        description: 'Token to use (optional, defaults to GITHUB_TOKEN)'
+        required: false
+  schedule:
+    - cron: '0 0 * * *' # daily
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get account commit data
+        id: commit_data
+        env:
+          ACCOUNT: ${{ inputs.account || github.repository_owner }}
+          TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x .github/scripts/fetch_account_commit_stats.sh
+          source .github/scripts/fetch_account_commit_stats.sh "$ACCOUNT" "$TOKEN" > /tmp/commit_data.env
+          cat /tmp/commit_data.env
+          COMMITS_COUNT=$(grep ^TOTAL_COMMITS= /tmp/commit_data.env | cut -d'=' -f2)
+          LAST_COMMIT_UTC=$(grep ^LAST_COMMIT_UTC= /tmp/commit_data.env | cut -d'=' -f2)
+          echo "COMMITS_COUNT=$COMMITS_COUNT" >> $GITHUB_ENV
+          echo "LAST_COMMIT_UTC=$LAST_COMMIT_UTC" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          sed -i "s/<!--ACCOUNT_COMMITS_COUNT-->/$COMMITS_COUNT/" README.md
+          sed -i "s/<!--ACCOUNT_LAST_COMMIT-->/$LAST_COMMIT_UTC/" README.md
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update commit stats"
+            git push
+          else
+            echo "No changes to commit."
+          fi

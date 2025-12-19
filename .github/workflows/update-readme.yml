@@ -39,10 +39,29 @@ jobs:
           echo "COMMITS_COUNT=$COMMITS_COUNT" >> $GITHUB_ENV
           echo "LAST_COMMIT_UTC=$LAST_COMMIT_UTC" >> $GITHUB_ENV
 
+      - name: Get GitHub "contributions (last year)" (GraphQL)
+        id: contributions
+        env:
+          ACCOUNT: ${{ inputs.account || github.repository_owner }}
+          TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x .github/scripts/fetch_github_contributions.sh
+          source .github/scripts/fetch_github_contributions.sh "$ACCOUNT" "$TOKEN" > /tmp/contrib_data.env
+          cat /tmp/contrib_data.env
+          TOTAL_CONTRIBUTIONS_LAST_YEAR=$(grep ^TOTAL_CONTRIBUTIONS_LAST_YEAR= /tmp/contrib_data.env | cut -d'=' -f2)
+          TOTAL_COMMIT_CONTRIBUTIONS_LAST_YEAR=$(grep ^TOTAL_COMMIT_CONTRIBUTIONS_LAST_YEAR= /tmp/contrib_data.env | cut -d'=' -f2)
+          LAST_CONTRIBUTION_DATE_UTC=$(grep ^LAST_CONTRIBUTION_DATE_UTC= /tmp/contrib_data.env | cut -d'=' -f2)
+          echo "TOTAL_CONTRIBUTIONS_LAST_YEAR=$TOTAL_CONTRIBUTIONS_LAST_YEAR" >> $GITHUB_ENV
+          echo "TOTAL_COMMIT_CONTRIBUTIONS_LAST_YEAR=$TOTAL_COMMIT_CONTRIBUTIONS_LAST_YEAR" >> $GITHUB_ENV
+          echo "LAST_CONTRIBUTION_DATE_UTC=$LAST_CONTRIBUTION_DATE_UTC" >> $GITHUB_ENV
+
       - name: Update README
         run: |
           sed -i "s/<!--ACCOUNT_COMMITS_COUNT-->/$COMMITS_COUNT/" README.md
           sed -i "s/<!--ACCOUNT_LAST_COMMIT-->/$LAST_COMMIT_UTC/" README.md
+          sed -i "s/<!--GITHUB_CONTRIBUTIONS_LAST_YEAR-->/$TOTAL_CONTRIBUTIONS_LAST_YEAR/" README.md
+          sed -i "s/<!--GITHUB_COMMIT_CONTRIBUTIONS_LAST_YEAR-->/$TOTAL_COMMIT_CONTRIBUTIONS_LAST_YEAR/" README.md
+          sed -i "s/<!--GITHUB_LAST_CONTRIBUTION_DATE-->/$LAST_CONTRIBUTION_DATE_UTC/" README.md
 
       - name: Commit & push if changed
         run: |

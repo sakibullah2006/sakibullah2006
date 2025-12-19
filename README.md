@@ -65,4 +65,7 @@ These are the technologies I use most frequently to build modern, high-performan
 
 - **Total commits (account):** 23
 - **Last commit (UTC, account):** 2025-12-19T10:50:26Z
+- **Contributions (last year, GitHub):** <!--GITHUB_CONTRIBUTIONS_LAST_YEAR-->
+- **Commit contributions (last year, GitHub):** <!--GITHUB_COMMIT_CONTRIBUTIONS_LAST_YEAR-->
+- **Last contribution (UTC, GitHub):** <!--GITHUB_LAST_CONTRIBUTION_DATE-->
 

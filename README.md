@@ -62,3 +62,11 @@ These are the technologies I use most frequently to build modern, high-performan
     </tr>
   </table>
 </div>
+
+- **Total commits:** <!--COMMITS_COUNT-->
+- **Last commit (UTC):** <!--LAST_COMMIT-->
+
+
+- **Total
+-commits:** <!--COMMITS_COUNT-->
+- **Last commit (UTC):** <!--LAST_COMMIT-->

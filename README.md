@@ -63,10 +63,6 @@ These are the technologies I use most frequently to build modern, high-performan
   </table>
 </div>
 
-- **Total commits:** <!--COMMITS_COUNT-->
-- **Last commit (UTC):** <!--LAST_COMMIT-->
+- **Total commits:** 7
+- **Last commit (UTC):** 2025-12-19T10:40:02Z
 
-
-- **Total
--commits:** <!--COMMITS_COUNT-->
-- **Last commit (UTC):** <!--LAST_COMMIT-->

@@ -51,21 +51,9 @@ These are the technologies I use most frequently to build modern, high-performan
 ### 🚀 My GitHub Activity
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=sakibullah2006&show_icons=true&theme=dracula&rank_icon=github&count_private=true" alt="Sakib Ullah's GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sakibullah2006&layout=compact&theme=dracula" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sakibullah2006&show=prs_merged&show_icons=true&theme=radical&hide=contribs)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sakibullah2006&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
 </div>
-
-- **Total commits (account):** 23
-- **Last commit (UTC, account):** 2025-12-19T10:50:26Z
-- **Contributions (last year, GitHub):** <!--GITHUB_CONTRIBUTIONS_LAST_YEAR-->
-- **Commit contributions (last year, GitHub):** <!--GITHUB_COMMIT_CONTRIBUTIONS_LAST_YEAR-->
-- **Last contribution (UTC, GitHub):** <!--GITHUB_LAST_CONTRIBUTION_DATE-->
-

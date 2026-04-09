@@ -102,16 +102,12 @@ These are the technologies I use most frequently to build modern, high-performan
 
 [![GitHub followers](https://img.shields.io/github/followers/sakibullah2006?label=Followers&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sakibullah2006)
 [![GitHub stars](https://img.shields.io/github/stars/sakibullah2006?label=Stars&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sakibullah2006/stargazers)
-[![GitHub repos](https://img.shields.io/github/repos/sakibullah2006?label=Public%20Repos&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sakibullah2006?tab=repositories)
-[![GitHub profile views](https://komarev.com/ghpvc/?username=sakibullah2006&style=for-the-badge)](https://github.com/sakibullah2006)
+
 
 </div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sakibullah2006&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sakibullah2006&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
-</div>
+<!-- 
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sakibullah2006&theme=github&area=true&hide_border=true" alt="GitHub Activity Graph" />
-</div>
+</div> -->

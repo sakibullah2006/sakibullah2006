@@ -1,11 +1,20 @@
 ### Hi, I'm Sakib 👋
 
-A Full-Stack Developer engineering scalable web and mobile applications. My focus is on building high-performance systems from the ground up, translating complex business needs into seamless technical solutions.
+**Full-Stack Developer** | **AI Automation Specialist** | Dhaka, Bangladesh
 
-- 🔭 **Working on:** Full-stack e-commerce platforms at Cozmiq LLC.
-- 🌱 **Learning:** Advanced system design and cloud infrastructure.
-- 💬 **Ask me about:** Next.js, Nest.js, System Design, and Latest Framworks.
-- ⚡ **Fun fact:** I don't like Frontend stuff but I am somehow good at it.
+A versatile Software Developer with hands-on experience in Full-Stack web development and AI Automation. I specialize in building scalable, intelligent applications using React, Next.js, and Flutter. I'm skilled in leveraging n8n and other AI tools to create automated, AI-driven workflows with a strong focus on performance, data accuracy, and architectural scalability.
+
+**📧 Email:** sakibullah.official@gmail.com | **📱 Phone:** +8801690254117  
+**🔗 LinkedIn:** [sakib-ullah-9680361b5](https://linkedin.com/in/sakib-ullah-9680361b5) | **🐙 GitHub:** [@sakibullah2006](https://github.com/sakibullah2006)
+
+---
+
+### ✨ Quick Snapshot
+
+- 🔭 **Working on:** [DenDesk](https://dendesk-sigma.vercel.app/) - A Ai powered solution for customer support and lead generation.
+- 🌱 **Learning:** Advanced system design and cloud infrastructure
+- 💬 **Ask me about:** Next.js, Nest.js, System Design, AI Automation, and Latest Frameworks
+- ⚡ **Fun fact:** I don't like Frontend stuff but I am somehow good at it
 
 ---
 
@@ -48,12 +57,61 @@ These are the technologies I use most frequently to build modern, high-performan
 
 ---
 
+### 🎯 Featured Projects
+
+#### **[DenDesk](https://dendesk-sigma.vercel.app/)** — Multi-Tenant AI Chatbot Platform
+- Developed a multi-tenant AI chatbot platform for dental businesses that automates customer support and lead capture with seamless human-takeover functionality
+- Engineered a zero-setup RAG pipeline (OpenAI, pgvector, N8N) that instantly trains context-aware AI assistants using only a business's website URL
+- Deployed embeddable React widgets and Retell voice AI agents to convert customer interactions into booked appointments or captured leads
+- Built a real-time admin portal with Supabase and automated Stripe billing for subscription management
+
+#### **[Vednoir](https://vednoir.com/)** — E-Commerce Platform (Frontend Lead)
+- Engineered secure user authentication system with phone verification and responsive modals
+- Developed the entire multi-step e-commerce checkout flow with Razorpay payment gateway integration
+- Built comprehensive User Dashboard (Order History, Address Book) and executed significant UI/UX refactoring
+- **Stack:** Next.js, TypeScript, Tailwind CSS, Razorpay API
+
+#### **[EcoGoodsDirect](https://ecogoodsdirect.vercel.app/)** — Sustainable E-Commerce
+- Developed a sustainable e-commerce platform specializing in natural fiber (Jute/Cotton) bags
+- Integrated WooCommerce API for e-commerce functionality and product catalog management
+- **Stack:** Next.js, WooCommerce API
+
+#### **[Vertex Store](https://woonex.vercel.app/)** — High-Performance E-Commerce Storefront
+- Created a modern, high-performance e-commerce storefront with Next.js for exceptional speed and scalability
+- Integrated WooCommerce backend API for complete product and inventory management
+- Designed customizable solutions optimized for both developers and high-volume online businesses
+
+---
+
+### 📚 Skills & Expertise
+
+| Category | Skills |
+|----------|--------|
+| **Programming Languages** | TypeScript, JavaScript, Java, Dart, Python, Go |
+| **Frameworks & Libraries** | React, Next.js, Nest.js, Express.js, Spring Boot, Vue.js |
+| **Databases** | MongoDB, Firebase, Supabase, PostgreSQL |
+| **Tools & Platforms** | n8n, Docker, Git, CI/CD, WordPress, Shopify, Tailwind CSS, shadcn/ui |
+| **Hard Skills** | Debugging, System Administration, Testing, Troubleshooting, Networking, Linux |
+| **Soft Skills** | Communication, Adaptability, Collaboration, User Support, Problem-solving |
+
+---
+
 ### 🚀 My GitHub Activity
 
 <div align="center">
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sakibullah2006&show=prs_merged&show_icons=true&theme=radical&hide=contribs)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub followers](https://img.shields.io/github/followers/sakibullah2006?label=Followers&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sakibullah2006)
+[![GitHub stars](https://img.shields.io/github/stars/sakibullah2006?label=Stars&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sakibullah2006/stargazers)
+[![GitHub repos](https://img.shields.io/github/repos/sakibullah2006?label=Public%20Repos&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sakibullah2006?tab=repositories)
+[![GitHub profile views](https://komarev.com/ghpvc/?username=sakibullah2006&style=for-the-badge)](https://github.com/sakibullah2006)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sakibullah2006&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+</div>
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sakibullah2006&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sakibullah2006&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sakibullah2006&theme=github&area=true&hide_border=true" alt="GitHub Activity Graph" />
 </div>

@@ -8,7 +8,6 @@ I build scalable web products and AI-powered workflows that solve real business 
 [![GitHub](https://img.shields.io/badge/GitHub-@sakibullah2006-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sakibullah2006)
 [![Email](https://img.shields.io/badge/Email-sakibullah.official%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sakibullah.official@gmail.com)
 
----
 
 ## Quick Snapshot
 
@@ -17,7 +16,6 @@ I build scalable web products and AI-powered workflows that solve real business 
 - 💬 Ask me about Next.js, NestJS, AI automation, APIs, and scalable architecture
 - ⚡ Fun fact: I enjoy solving frontend performance issues even though backend is my comfort zone
 
----
 
 ## Core Stack
 
@@ -55,7 +53,6 @@ I build scalable web products and AI-powered workflows that solve real business 
 
 </div>
 
----
 
 ## Featured Projects
 
@@ -81,7 +78,6 @@ I build scalable web products and AI-powered workflows that solve real business 
 - Integrated WooCommerce backend APIs for products and inventory sync
 - Designed a reusable architecture for developer-friendly customization
 
----
 
 ## Skills
 
@@ -93,7 +89,6 @@ I build scalable web products and AI-powered workflows that solve real business 
 | Tools | n8n, Docker, Git, CI/CD, WordPress, Shopify, Tailwind CSS, shadcn/ui |
 | Systems | Debugging, Testing, Troubleshooting, Linux, Networking |
 
----
 
 ## GitHub Activity
 
@@ -107,7 +102,6 @@ I build scalable web products and AI-powered workflows that solve real business 
 
 </div>
 
----
 
 ## Let's Talk
 

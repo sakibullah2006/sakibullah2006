@@ -94,11 +94,11 @@ I build scalable web products and AI-powered workflows that solve real business 
 
 <div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/sakibullah2006?label=Followers&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sakibullah2006?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/sakibullah2006?label=Stars&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sakibullah2006?tab=repositories)
+[![GitHub followers](https://img.shields.io/github/followers/sakibullah2006?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=1F6FEB&labelColor=111827)](https://github.com/sakibullah2006?tab=followers)
+[![GitHub stars](https://img.shields.io/github/stars/sakibullah2006?label=Stars&style=for-the-badge&logo=github&logoColor=white&color=14B8A6&labelColor=111827)](https://github.com/sakibullah2006?tab=repositories)
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=sakibullah2006&show_icons=true&hide_title=true&hide_border=true&rank_icon=github" alt="Sakib's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sakibullah2006&layout=compact&hide_border=true" alt="Top languages" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=sakibullah2006&show_icons=true&hide_title=true&hide_border=true&rank_icon=github&theme=github_dark_dimmed&title_color=58A6FF&text_color=C9D1D9&icon_color=2F81F7&bg_color=0D1117" alt="Sakib's GitHub stats" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sakibullah2006&layout=compact&hide_border=true&theme=github_dark_dimmed&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117" alt="Top languages" />
 
 </div>
 

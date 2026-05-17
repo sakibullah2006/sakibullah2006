@@ -11,7 +11,7 @@ I build scalable web products and AI-powered workflows that solve real business 
 
 ## Quick Snapshot
 
-- 🔭 Building [DenDesk](https://dendesk-sigma.vercel.app/), an AI-powered platform for customer support and lead capture
+- 🔭 Building [StoreDesk](https://storedesk.vercel.app/), an AI-powered platform for customer support and lead capture
 - 🌱 Learning advanced system design and cloud infrastructure patterns
 - 💬 Ask me about Next.js, NestJS, AI automation, APIs, and scalable architecture
 - ⚡ Fun fact: I enjoy solving frontend performance issues even though backend is my comfort zone

@@ -56,7 +56,7 @@ I build scalable web products and AI-powered workflows that solve real business 
 
 ## Featured Projects
 
-### [DenDesk](https://dendesk-sigma.vercel.app/) - Multi-Tenant AI Chatbot Platform
+### [StoreDesk](https://storedesk.vercel.app/) - Multi-Tenant AI Chatbot Platform
 - Built an AI support and lead-capture platform for dental businesses with human handover support
 - Engineered a zero-setup RAG flow (OpenAI, pgvector, n8n) from a business website URL
 - Deployed embeddable React chat widgets and Retell voice agents for appointment conversion

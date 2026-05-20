@@ -14,7 +14,7 @@ I build scalable web products and AI-powered workflows that solve real business 
 - 🔭 Building [StoreDesk](https://storedesk.vercel.app/), an AI-powered platform for customer support and lead capture
 - 🌱 Learning advanced system design and cloud infrastructure patterns
 - 💬 Ask me about Next.js, NestJS, AI automation, APIs, and scalable architecture
-- ⚡ Fun fact: I enjoy solving frontend performance issues even though backend is my comfort zone
+- ⚡ Fun fact: I am good at solving frontend performance issues even though backend is my comfort zone
 
 
 ## Core Stack

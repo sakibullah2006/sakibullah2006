@@ -11,7 +11,7 @@ I build scalable web products and AI-powered workflows that solve real business 
 
 ## Quick Snapshot
 
-- 🔭 Building [StorBell](https://storbell.com/), an AI-powered platform for customer support and lead capture
+- 🔭 Building [StorBell](https://app.storbell.com/), an AI-powered platform for customer support and lead capture
 - 🌱 Learning advanced system design and cloud infrastructure patterns
 - 💬 Ask me about Next.js, NestJS, AI automation, APIs, and scalable architecture
 - ⚡ Fun fact: I am good at solving frontend performance issues even though backend is my comfort zone
@@ -56,7 +56,7 @@ I build scalable web products and AI-powered workflows that solve real business 
 
 ## Featured Projects
 
-### [StorBell](https://storbell.com/) - Multi-Tenant AI Chatbot Platform
+### [StorBell](https://app.storbell.com/) - Multi-Tenant AI Chatbot Platform
 - Built an AI support and lead-capture platform for e-commerce businesses with human handover support
 - Engineered a zero-setup RAG flow (OpenAI, pgvector, n8n) from a business website URL
 - Deployed embeddable React chat widgets and Retell voice agents for appointment conversion
